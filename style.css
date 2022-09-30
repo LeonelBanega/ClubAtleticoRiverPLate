@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+.nav-nueva{
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+}
+
+
+.animate__animated.animate__bounce {
+    --animate-duration: 5s;
+}
+
+:root :hover {
+    --animate-duration: 2s;
+    --animate-delay: 0.9s;
+}
+
+.mapa{
+    width: 30%;
+    height: 30%;
+}
+
+
+ /* footer */
+
+.redes-sociales a img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 35px;
+    height: 35px;
+}
+
+.mapa{
+    width: 450px;
+    height: 150px;
+}
