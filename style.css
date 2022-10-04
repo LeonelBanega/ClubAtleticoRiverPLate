@@ -21,14 +21,30 @@ body{
     --animate-duration: 2s;
     --animate-delay: 0.9s;
 }
-
-.mapa{
-    width: 30%;
-    height: 30%;
+.texto-uno{
+    color: white;
 }
 
+/* cuerpo */
+
+.card-title{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.card-text{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
 
  /* footer */
+
+.footer-color{
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+}
 
 .redes-sociales a img{
     display: flex;
@@ -41,6 +57,28 @@ body{
 }
 
 .mapa{
-    width: 450px;
-    height: 150px;
+    width: 350px;
+    height: 115px;
+}
+
+/* Institucion */
+
+/* .escudos-ext{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+} */
+
+.container-inst{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container-img{
+    width: 150px;
+    height: 170px;
+}
+.container-inst div{
+    margin: 100px;
 }
