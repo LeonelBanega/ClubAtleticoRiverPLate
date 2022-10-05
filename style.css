@@ -24,17 +24,26 @@ body{
 .texto-uno{
     color: white;
 }
-
+.nav-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
 /* cuerpo */
+.card-body{
+    background-color: black;
+    color: white;
+}
 
 .card-title{
-    color: black;
+    color: white;
     display: flex;
     justify-content: center;
 }
 
 .card-text{
-    color: black;
+    background-color: black;
+    color: white;
     display: flex;
     justify-content: center;
 }
