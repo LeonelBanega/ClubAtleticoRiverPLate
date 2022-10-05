@@ -38,7 +38,15 @@ body{
     display: flex;
     justify-content: center;
 }
-
+/* PLANTEL */
+.carouse-principal{
+    float: none;
+}
+.carouse-arqueros{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
  /* footer */
 
 .footer-color{
