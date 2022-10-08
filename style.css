@@ -10,6 +10,8 @@ body{
 .nav-nueva{
     background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
     background-blend-mode: multiply;
+    position: sticky;
+    top: 0;
 }
 
 
@@ -29,6 +31,36 @@ body{
     flex-direction: row;
     justify-content: flex-end;
 }
+
+/* OBRAS */
+.obras-uno{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px 10px;
+    border: grey 5px solid;
+    border-radius: 20px;
+}
+.obras-dos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px 10px;
+    border: grey 5px solid;
+    border-radius: 20px;
+}
+.obras-tres{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px 10px;
+    border: grey 5px solid;
+    border-radius: 20px;
+}
+
 /* cuerpo */
 .card-body{
     background-color: black;
@@ -48,14 +80,8 @@ body{
     justify-content: center;
 }
 /* PLANTEL */
-.carouse-principal{
-    float: none;
-}
-.carouse-arqueros{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
+
+
  /* footer */
 
 .footer-color{
@@ -79,13 +105,6 @@ body{
 }
 
 /* Institucion */
-
-/* .escudos-ext{
-    width: 50%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-} */
 
 .container-inst{
     display: flex;
