@@ -129,3 +129,14 @@ body{
     display: none;
 }
 }
+@media (max-width: 1024px) {
+.img-uno{
+    display: none;
+}
+.img-dos{
+    display: none;
+}
+.img-tres{
+    display: none;
+}
+}
