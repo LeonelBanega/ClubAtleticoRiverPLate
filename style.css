@@ -1,3 +1,4 @@
+/* INICIOP */
 *{
     padding: 0;
     margin: 0;
@@ -79,8 +80,21 @@ body{
     display: flex;
     justify-content: center;
 }
-/* PLANTEL */
 
+/* Institucion */
+
+.container-inst{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container-img{
+    width: 150px;
+    height: 170px;
+}
+.container-inst div{
+    margin: 100px;
+}
 
  /* footer */
 
@@ -103,18 +117,15 @@ body{
     width: 350px;
     height: 115px;
 }
-
-/* Institucion */
-
-.container-inst{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+/* media quaries */
+@media (max-width: 576px) {
+.img-uno{
+    display: none;
 }
-.container-img{
-    width: 150px;
-    height: 170px;
+.img-dos{
+    display: none;
 }
-.container-inst div{
-    margin: 100px;
+.img-tres{
+    display: none;
+}
 }
